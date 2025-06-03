@@ -1,0 +1,38 @@
+ul.menu {
+	font-family: times, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+ul.menu li {
+	background-color: cyan;
+	border-left: 5px green;
+	display: inline;
+	width: 105px;
+	height: 60px;
+	margin: 2px 0;
+}
+
+ul.menu li a {
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+	padding: 20px;
+	width: 90px;
+	height: 60px;
+	line-height: 60px;
+}
+
+ul.menu li:hover {
+	background-color: #006400;
+	border-left: 5px #00CED1;
+}
+
+ul.menu li.attivo {
+	background-color: #006400;
+	border-left: 5px #00CED1;
+}
